@@ -1,0 +1,147 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:8080/
+Subject: Weekend's Pen
+Date: Mon, 2 Dec 2024 18:04:49 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--oQ0jTlajKjO03W6hReJBzsoZEmjZQr0g5cCmguPcKh----"
+
+
+------MultipartBoundary--oQ0jTlajKjO03W6hReJBzsoZEmjZQr0g5cCmguPcKh----
+Content-Type: text/html
+Content-ID: <frame-57864F7049D1845B6A8072E03E80902F@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: http://127.0.0.1:8080/
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-0a6a85e5-509e-4be2-b09d-2fb4e97b86fc@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-6b952211-d195-4776-bce9-4e16911644b1@mhtml.blink" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekend's Pen</title>
+    <link rel="stylesheet" href="http://127.0.0.1:8080/styles.css">
+</head>
+<body class="dark-mode">
+    <header>
+        <div class="logo">Weekend's Pen</div>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:8080/#home">Home</a></li>
+                <li><a href="http://127.0.0.1:8080/#services">Services</a></li>
+                <li><a href="http://127.0.0.1:8080/#order">Order</a></li>
+                <li><a href="http://127.0.0.1:8080/#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="darkModeToggle">Dark Mode</button>
+    </header>
+
+    <section id="home" class="section">
+        <h1>Welcome to Weekend's Pen</h1>
+        <p>Founded in 2024, Weekend's Pen is led by a visionary programmer aiming to digitize the world and make it easier for everyone.</p>
+        <p>Our team includes everyone who visits our website – you are part of our family!</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">Web Development</div>
+                <div class="slide">Digital Marketing</div>
+                <div class="slide">App Development</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="order" class="section">
+        <h2>Place an Order</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required="">
+            
+            <label for="service">Service:</label>
+            <select id="service" name="service">
+                <option value="web">Web Development</option>
+                <option value="marketing">Digital Marketing</option>
+                <option value="app">App Development</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Facebook: <a href="https://facebook.com/niflhiem.weekend" target="_blank">niflhiem.weekend</a></p>
+        <p>Instagram: <a href="https://instagram.com/weekendcantflyanymore" target="_blank">weekendcantflyanymore</a></p>
+        <p>Email: <a href="mailto:marwanelyakouti77@gmail.com">marwanelyakouti77@gmail.com</a></p>
+        <p>Phone: +212681151043</p>
+        <p>Address: Rue Narjiss, Block 2, N346/2, Fes</p>
+    </section>
+
+    
+
+
+
+
+
+</body></html>
+------MultipartBoundary--oQ0jTlajKjO03W6hReJBzsoZEmjZQr0g5cCmguPcKh----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-0a6a85e5-509e-4be2-b09d-2fb4e97b86fc@mhtml.blink
+
+@charset "utf-8";
+
+.dark-mode { background: rgb(47, 54, 64); color: white; }
+
+.dark-mode header { background: rgb(30, 39, 46); }
+
+.dark-mode form button { background: rgb(113, 128, 147); }
+------MultipartBoundary--oQ0jTlajKjO03W6hReJBzsoZEmjZQr0g5cCmguPcKh----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-6b952211-d195-4776-bce9-4e16911644b1@mhtml.blink
+
+@charset "utf-8";
+
+body { font-family: Arial, sans-serif; margin: 0px; padding: 0px; background: linear-gradient(rgb(223, 249, 251), rgb(199, 236, 238)); }
+
+header { display: flex; justify-content: space-between; align-items: center; padding: 20px; background: rgb(19, 15, 64); color: white; }
+
+header .logo { font-size: 24px; font-weight: bold; }
+
+header nav ul { list-style: none; display: flex; gap: 15px; }
+
+header nav ul li a { color: white; text-decoration: none; }
+
+.section { padding: 50px; text-align: center; }
+
+.slider { overflow: hidden; width: 300px; margin: 20px auto; }
+
+.slides { display: flex; animation: 8s ease 0s infinite normal none running slide; }
+
+.slide { width: 300px; padding: 20px; background: rgb(209, 204, 192); margin-right: 5px; border-radius: 5px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px; }
+
+form { display: flex; flex-direction: column; gap: 10px; max-width: 400px; margin: 0px auto; }
+
+form input, form select, form textarea, form button { padding: 10px; font-size: 16px; }
+
+form button { background: rgb(19, 15, 64); color: white; border: none; cursor: pointer; }
+
+@keyframes slide { 
+  0% { transform: translateX(0px); }
+  33% { transform: translateX(-300px); }
+  66% { transform: translateX(-600px); }
+  100% { transform: translateX(0px); }
+}
+------MultipartBoundary--oQ0jTlajKjO03W6hReJBzsoZEmjZQr0g5cCmguPcKh----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: http://127.0.0.1:8080/styles.css
+
+@charset "utf-8";
+
+
+------MultipartBoundary--oQ0jTlajKjO03W6hReJBzsoZEmjZQr0g5cCmguPcKh------
