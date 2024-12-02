@@ -1,0 +1,84 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #dff9fb, #c7ecee);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #130f40;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.slider {
+    overflow: hidden;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.slides {
+    display: flex;
+    animation: slide 8s infinite;
+}
+
+.slide {
+    width: 300px;
+    padding: 20px;
+    background: #d1ccc0;
+    margin-right: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form select, form textarea, form button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    background: #130f40;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@keyframes slide {
+    0% {transform: translateX(0);}
+    33% {transform: translateX(-300px);}
+    66% {transform: translateX(-600px);}
+    100% {transform: translateX(0);}
+}

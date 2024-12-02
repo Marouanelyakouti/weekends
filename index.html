@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekend's Pen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Weekend's Pen</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="darkModeToggle">Dark Mode</button>
+    </header>
+
+    <section id="home" class="section">
+        <h1>Welcome to Weekend's Pen</h1>
+        <p>Founded in 2024, Weekend's Pen is led by a visionary programmer aiming to digitize the world and make it easier for everyone.</p>
+        <p>Our team includes everyone who visits our website – you are part of our family!</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">Web Development</div>
+                <div class="slide">Digital Marketing</div>
+                <div class="slide">App Development</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="order" class="section">
+        <h2>Place an Order</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="service">Service:</label>
+            <select id="service" name="service">
+                <option value="web">Web Development</option>
+                <option value="marketing">Digital Marketing</option>
+                <option value="app">App Development</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Facebook: <a href="https://facebook.com/niflhiem.weekend" target="_blank">niflhiem.weekend</a></p>
+        <p>Instagram: <a href="https://instagram.com/weekendcantflyanymore" target="_blank">weekendcantflyanymore</a></p>
+        <p>Email: <a href="mailto:marwanelyakouti77@gmail.com">marwanelyakouti77@gmail.com</a></p>
+        <p>Phone: +212681151043</p>
+        <p>Address: Rue Narjiss, Block 2, N346/2, Fes</p>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
